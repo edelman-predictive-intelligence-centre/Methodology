@@ -56,9 +56,13 @@
      - Manually evaluate articles with differernt tags from 2 taggers
      - Refine Taxonomy definitions internally for better clarity
      - Repeat step 2-5
-6. Configure API key and project name for Automation scripts and start crontab jobs
-7. Scripts will run every 15mins to transfer labelled data into Cloud Storage and BigQuery
-
+6. Export data and save to Cloud Storage and BigQuery
+   - via API:
+     - Configure API key and project name for Automation scripts and start crontab jobs
+     - Scripts will run every 15mins to transfer labelled data into Cloud Storage and BigQuery
+   - via UI:
+     - Download labelled data
+     - Upload to Cloud Storage and BigQuery
 ### Phase 4 - Modelling
 1. Train Model
 2. Save Model 
